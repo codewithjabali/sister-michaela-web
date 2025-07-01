@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>academics</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: blueviolet;
+  
+}
+nav {
+background-color: darkolivegreen;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+nav p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  max-width: 200px;
+  line-height: 1.4;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+  transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+nav button {
+  background-color: #FFD700;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav button a {
+  text-decoration: none;
+  color: #000;
+}
+/* Page Headings */
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 2rem 1rem 1rem;
+  text-align: center;
+}
+
+h2 {
+  color: #fdd835;
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+/* Paragraph Text */
+p, article {
+  color: #f3f3f3;
+  font-size: 1rem;
+  margin: 0.5rem 1rem;
+  line-height: 1.6;
+}
+
+/* Main Content Containers */
+#school,
+#Achievements,
+#hey {
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #5e35b1;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 1100px;
+}
+
+/* Section Layouts */
+#school section,
+#Achievements section,
+#hey section {
+  background: #673ab7;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#school h1,
+#Achievements h1 {
+  color: #ffeb3b;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+ol {
+  margin-left: 2rem;
+  color: #f3f3f3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  #school,
+  #Achievements,
+  #hey {
+    padding: 1rem;
+  }
+
+  #school section,
+  #Achievements section,
+  #hey section {
+    padding: 1rem;
+  }
+
+  p, article, li {
+    font-size: 0.95rem;
+  }
+}
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-info, .footer-links {
+  flex: 1 1 45%;
+  margin-bottom: 1.5rem;
+}
+
+.footer-info h3, .footer-links h3 {
+  margin-bottom: 1rem;
+}
+
+.footer-info p, .footer-links ul li {
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  #dev {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .smart, .welcome {
+    flex: 1 1 100%;
+  }
+}
+
+
+
+     </style>
+</head>
+<body>
+    <nav>
+        <p><i class="fa fa-graduation-cap"></i>Sister Michaela <br>
+            Girls Secondary <br> School
+</p>
+<ul>
+    <li><a href="/homepage">Home</a></li>
+     <li><a href="/about">About</a></li>
+      <li><a href="/academics">Academics</a></li>
+       <li><a href="/schoollife">School life</a></li>
+       <li><a href="/logout">Logout</a></li>
+        
+         
+</ul>
+<button><a href="resume.pdf" download>Apply Now</a>
+</button>
+    </nav>
+    <h1>School Life & Activities</h1>
+    <p>Beyond academics, our lively school provides <br>
+         numerous opporturnities 
+         for personal development,
+         <br> building friendship and exploration.
+    </p>
+    <div id="school">
+        <section>
+            <h1>Games</h1>
+            <ul>
+                <li>Football</li>
+                <li>volleyball</li>
+                <li>Athletics</li>
+                <li>Netball</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Arts and Culture</h1>
+            <ul>
+                <li>Choir</li>
+                <li>Drama Club</li>
+                <li>Art Society</li>
+                <li>Dance</li>
+                <li>Photography</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Leadership</h1>
+            <ul>
+                <li>Student Council</li>
+                <li>Peer Mentoring</li>
+                <li>Community Service</li>
+                <li>Debate Team</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Special Interests</h1>
+            <ul>
+                <li>School Newspaper</li>
+                <li>Science Club</li>
+                <li>Scout Club</li>
+                <li>Environmental Club</li>
+                <li>Poetry Club</li>
+            </ul>
+        </section>
+
+    </div>
+    <h1>School Traditions</h1>
+    <div id="Achievements">
+        <section>
+            <h2>Founders Day</h2>
+            <p>An annul event celebrating our school's history and accomplishments,
+            recognised as Sr. Michaela Day.</p>
+        </section>
+        <section>
+            <h1>Seniors Ceremonies</h1>
+            <p>Special tradition marking the transition to senior year</p>
+        </section>
+        <section>
+            <h1>Perfomance Ceremonies</h1>
+            <p>The school hosts a celebration to recognise
+                top-performing students and highlights the previous
+                year's academic results.
+            </p>
+        </section>
+
+    </div>
+    <h1>Student Achievements</h1>
+    <div id="hey">
+        <section>
+            <h2>KCSE PERFOMANCE</h2>
+            <p>Our school continues to excell in academic perfomance,
+            as reflected in the outstanding results of <BR>
+                the Kenya Certificate of Secondary Education (KCSE)
+            examinations. <br>
+                Year after year, our students demonstrate dedication, discipline 
+                and resilience, consistently achieving impressive grades that place our school
+                among the top-performing schools in the region. These results are a testament to
+                the hard work of our learners, the committment of our teachers, and the strong support from 
+                parents and the entire school community. Many of our candidates qualify for university admissions,
+                while others proceed to reputable colleges and technical institutions, ready to pursue their career aspirations.
+                The success of our School in KCSE not  only reflects academic excellence but also underscores our commitment
+                to nurturing well-rounded individuals prepared to make meaningful contributions to the society.
+                
+            </p>
+        </section>
+        <section>
+            <h2>ARTS AND TALENT RECOGNITION</h2>
+            <p>Our school proudly embraces the arts as vital a part of holistic education.
+            Through music, Drama, Visual Arts, and Cultural Perfomance,
+            students are given the opportunity to express their creativity,
+            build confidence and develop their talents beyond the classroom.
+            Over the years, our school has earned recognition at various levels fo 
+            excellence in the arts. From winning accolades at music and Drama festivals
+            to showcasing outstanding artwork in regional exhibitions,
+            our learners consistently make their mark. This recognition highlights
+            not only the talent within our school but also our dedication
+            to nurturing creativity, cultural appreciation, and self-expression as
+            key elaments of a well-rounded education.</p>
+        </section>
+        <section>
+            <h2>Community Impact of our School</h2>
+            <p>
+           <article> Our school plays a vital role in shaping not only the lives of students but also the well-being and development of the entire community. Through education, outreach, and collaboration, we strive to create a positive and lasting impact beyond our campus walls.</article>
+<ol>
+<li> Educational Excellence</li>
+By providing a strong academic foundation, our school empowers students to become thoughtful, skilled, and responsible citizens. The success of our students contributes to a more educated and capable community, helping to break cycles of poverty and open doors to new opportunities.
+
+<li> Community Engagement</li>
+We actively engage with local organizations, families, and residents through events, service projects, and open forums. Whether it’s hosting town hall meetings, cultural celebrations, or charity drives, our school serves as a hub for connection and dialogue.
+
+<li> Supporting Families</li>
+Our school offers more than education—it’s a support system for families. Through counseling services, food programs, and after-school care, we help ease the challenges many families face and ensure children are equipped to succeed both inside and outside the classroom.
+
+<li> Youth Development and Leadership</li>
+We nurture leadership through student councils, clubs, and volunteer opportunities. These experiences teach responsibility and civic engagement, encouraging students to become active contributors to the community now and in the future.
+
+<li> Economic and Social Contributions</li>
+Our school creates jobs, supports local businesses through partnerships and purchasing, and attracts families to the area. Strong schools often correlate with stronger neighborhoods, higher property values, and safer communities.
+
+<li> Lifelong Learning and Inclusion</li>
+We offer opportunities for lifelong learning, including adult education, community classes, and inclusive programs for diverse learners. This promotes unity, understanding, and progress across generations.
+</ol>
+</p>
+        </section>
+
+
+    </div>
+    <footer>
+  <div class="footer-container">
+    <div class="footer-info">
+      <h3>Contact Us</h3>
+      <p><i class="fa fa-map-marker"></i> Sister Michaela Girls Secondary School,<br>Kisii County, Kenya</p>
+      <p><i class="fa fa-phone"></i> +254 717766093</p>
+      <p><i class="fa fa-envelope"></i> srmichaelagirls@gmail.com </p>
+        <p>Address: P.O BOX 1721-40200, Kisii</p>
+  
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="/homepage">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/academics">Academics</a></li>
+        <li><a href="/schoollife">School Life</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">
+    &copy; 2025 Sister Michaela Girls School. All rights reserved.
+  </p>
+</footer>
+
+    
+    
+</body>
+</html>

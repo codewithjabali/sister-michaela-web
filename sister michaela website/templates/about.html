@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+
+     <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: blueviolet;
+  
+}
+nav {
+background-color: darkolivegreen;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+nav p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  max-width: 200px;
+  line-height: 1.4;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+  transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+nav button {
+  background-color: #FFD700;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav button a {
+  text-decoration: none;
+  color: #000;
+}
+
+     /* Style the section title */
+h1 {
+  text-align: center;
+  color: red;
+  margin-top: 30px;
+  font-size: 30px;
+}
+p{
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Description paragraph under the title */
+#jabal + p {
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+/* Jabal container styling */
+#jabal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Individual section cards */
+#jabal section {
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+#jabal section:hover {
+  transform: translateY(-5px);
+}
+
+/* Headings inside sections */
+#jabal section h1 {
+  font-size: 20px;
+  color: #34495e;
+  margin-top: 10px;
+}
+
+/* Paragraphs inside sections */
+#jabal section p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Icons */
+#jabal section i {
+  font-size: 60px;
+  color: red;
+
+}
+
+/* Map section tweaks */
+#jabal iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 200px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 40px 20px 20px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-info, .footer-links {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+}
+
+.footer-info h3, .footer-links h3 {
+  margin-bottom: 15px;
+  color: #00ccff;
+}
+
+.footer-info p, .footer-links ul li {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.footer-info i {
+  margin-right: 10px;
+  color: #ffcc00;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #00ccff;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+}
+
+/* Responsive Footer */
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-info, .footer-links {
+    flex: 1 1 100%;
+  }
+}
+
+</style>
+</head>
+
+<body>
+    <nav>
+        <p><i class="fa fa-graduation-cap"></i>Sister Michaela <br>
+            Girls Secondary <br> School
+</p>
+<ul>
+    <li><a href="/homepage">Home</a></li>
+     <li><a href="/about">About</a></li>
+      <li><a href="/academics">Academics</a></li>
+       <li><a href="/schoollife">School life</a></li>
+       <li><a href="/logout">Logout</a></li>
+        
+         
+</ul>
+<button><a href="resume.pdf" download>Apply Now</a>
+</button>
+    </nav>
+    <h1>About our school</h1>
+    <p>For over 15years, Sister Michaela Girls has been a beacon of educational
+        excellence, <br> empowering young women to become confident leaders and compassionate
+        citizens.
+    </p>
+    <div id="jabal">
+        <section>
+             <i class="fas fa-bible"></i> 
+            <h1>Faith and Character</h1>
+            <p>Building strong moral foundation <br> and spiritual 
+            growth everyday.</p>
+
+        </section>
+        <section>
+             <i class="fas fa-book"></i>
+            <h1>Academic Excellence</h1>
+            <p>Rigorous curriculum designed to prepare <br>
+                 students for future success.</p>
+        </section>
+        <section>
+            <i class="fas fa-cross"></i> 
+            <h1>Fostering Sisterhood</h1>
+            <p>Students are taught on leadership skills <br> and lifelong
+                friendships.
+            </p>
+        </section>
+        <section>
+            <i style="font-size: 30px;">&#9827;</i>
+ 
+            <h1>Individual Growth</h1>
+            <p>Recognizing and nurturing <br> each student's unique <br>
+            talent and potential.</p>
+        </section>
+        <section>
+            <i class="fas fa-id-badge"></i> 
+
+            <h1>Admission Process</h1>
+            <p>To get admitted in our <br>
+            school click apply now button <br>
+        on the right side of the navigation bar to download the admission <br>
+    letter, with all admission requirements listed within the letter.</p>
+        </section>
+        <section>
+            <i class="fas fa-flask"></i>
+            <h1>Laboratories</h1>
+            <p>The school offers science subjects in the wide area of physics, chemistry and biology, with well equipped Laboratories
+                to enhance smooth carrying out of scientific experiments by
+                the students.
+            </p>
+        </section>
+        <section>
+          <i class="uil uil-tent"></i>
+          <h1>Scouting</h1>
+          <p>Our school offers scouting as a club,
+              guided by a committed patron to help students build
+              character and leadership skills.
+              
+          </p>
+
+        </section>
+        <section>
+        <p>Our Location</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.297371375959!2d34.74526583842185!3d-0.6088982352614508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182b24c68cb4b3f9%3A0x647d449b763e753!2sSister%20Michaela%20Girls%20Boarding!5e1!3m2!1sen!2ske!4v1750240328437!5m2!1sen!2ske" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+    <footer>
+  <div class="footer-container">
+    <div class="footer-info">
+      <h3>Contact Us</h3>
+      <p><i class="fa fa-map-marker"></i> Sister Michaela Girls Secondary School,<br>Kisii County, Kenya</p>
+      <p><i class="fa fa-phone"></i> +254 717766093</p>
+      <p><i class="fa fa-envelope"></i> srmichaelagirls@gmail.com</p>
+        <p>Adrress: P.O BOX 1721-40200, Kisii</p>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="/homepage">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/academics">Academics</a></li>
+        <li><a href="/schoollife">School Life</a></li>
+        <li><a href="/logout">Logout</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">
+    &copy; 2025 Sister Michaela Girls School. All rights reserved.
+  </p>
+</footer>
+
+
+</body>
+</html>

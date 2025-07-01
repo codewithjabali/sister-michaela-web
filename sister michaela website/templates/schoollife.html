@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>why us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: cornflowerblue;
+  
+}
+nav {
+background-color: darkolivegreen;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+nav p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  max-width: 200px;
+  line-height: 1.4;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+  transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+nav button {
+  background-color: #FFD700;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav button a {
+  text-decoration: none;
+  color: #000;
+}
+
+    /* Our Mission Section */
+#alt {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#alt section {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 25px;
+  border-radius: 12px;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-align: left;
+  transition: transform 0.3s ease, background 0.3s;
+}
+
+#alt section:hover {
+  transform: translateY(-5px);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#alt h1 {
+  font-size: 1.6rem;
+  color: #00ccff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#alt p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #f0f0f0;
+}
+
+#alt ul {
+  margin-top: 15px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+#alt ul li {
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+/* Main Heading */
+h1 {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 2.2rem;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  #alt {
+    grid-template-columns: 1fr;
+    padding: 20px 10px;
+  }
+
+  #alt section {
+    padding: 20px;
+  }
+
+  #alt h1 {
+    font-size: 1.4rem;
+  }
+
+  #alt p, #alt ul li {
+    font-size: 1rem;
+  }
+}
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 2rem;
+  
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-info, .footer-links {
+  flex: 1 1 45%;
+  margin-bottom: 1.5rem;
+}
+
+.footer-info h3, .footer-links h3 {
+  margin-bottom: 1rem;
+}
+
+.footer-info p, .footer-links ul li {
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  #dev {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .smart, .welcome {
+    flex: 1 1 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+     <nav>
+        <p><i class="fa fa-graduation-cap"></i>Sister Michaela <br>
+            Girls Secondary <br> School
+</p>
+<ul>
+    <li><a href="/homepage">Home</a></li>
+     <li><a href="/about">About</a></li>
+      <li><a href="/academics">Academics</a></li>
+       <li><a href="/schoollife">School life</a></li>
+       <li><a href="/logout">Logout</a></li>
+        
+         
+</ul>
+<button><a href="resume.pdf" download>Apply Now</a>
+</button>
+    </nav>
+    <h1>Our Mission</h1>
+    <div id="alt">
+        <section>
+        <p>At Sister Michaela Girls' School, <br> we are committed to be a leading
+            and caring child centered christian educational institution that develops the <br> 
+            intellectual, spiritual, emotional, and physical potential of each student. <br>
+             We strive to create confident, compassionate, and capable young women who
+             will make a positive impact in their communities and the world.
+            <ul>
+                <li>Develop critical thinking and problem-solving skills.</li>
+                <li>Foster creativity and innovation in all areas of learning.</li>
+                <li>Encourage social responsibility and global citizenship.</li>
+            </ul>
+        </p>
+        </section>
+        <section>
+            <h1>Why Choose us?</h1>
+            <p>At our school, we don't just educate — we inspire. We are committed to academic excellence, personal growth, 
+                <br> values-based learning. Our dedicated staff, supportive environment,
+                and strong faith foundation empower every student to discover their full potential. 
+                With a track record of outstanding performance, a variety of co-curricular activities, 
+                and a nurturing community, we offer a well-rounded education
+                that prepares learners for success in life — not just in exams. 
+                <br>Choose us for a future built on knowledge, character, and confidence.</p>
+        </section>
+
+        
+
+    </div>
+    <h1>MOTTO</h1>
+    <p style="font-size: 25px; text-align: center;">Love of Knowledge </p>
+    <h1>KCSE MEAN TARGET</h1>
+    <p style="font-size: 25px; text-align: center;">7.384</p>
+    <h1>OUR MISSION STATEMENT</h1>
+        <p style="font-size: 20px; text-align: center;">To be a leading and caring child centered <br>
+        christian Educational Institution</p>
+        <h1>OUR VISION STATEMENT</h1>
+            <p style="font-size: 20px; text-align: center;">To develop an all round <br>
+            person able to stand out in the community. </p>
+
+
+
+    <footer>
+  <div class="footer-container">
+    <div class="footer-info">
+      <h3>Contact Us</h3>
+      <p><i class="fa fa-map-marker"></i> Sister Michaela Girls Secondary School,<br>Kisii County, Kenya</p>
+      <p><i class="fa fa-phone"></i> +254 717766093</p>
+      <p><i class="fa fa-envelope"></i> srmichaela@gmail.com</p>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="/homepage">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/academics">Academics</a></li>
+        <li><a href="/schoollife">Our Mission</a></li>
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">
+    &copy; 2025 Sister Michaela Girls School. All rights reserved.
+  </p>
+</footer>
+
+
+</body>
+</html>
